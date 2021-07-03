@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+/* eslint-disable */
+
 const YAML = require('yamljs');
 const fs = require('fs');
 
