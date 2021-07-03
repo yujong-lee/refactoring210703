@@ -164,7 +164,7 @@ function savePageList(pageMap) {
 }
 
 function parseInfo(file, info) {
-  if (info == null) {
+  if (info === null) {
     return undefined;
   }
   const obj = {};
@@ -176,7 +176,7 @@ function parseInfo(file, info) {
   rawData.forEach((str) => {
     const result = /^\s*([^:]+):\s*(.+)\s*$/.exec(str);
 
-    if (result == null) {
+    if (result === null) {
       return;
     }
 
